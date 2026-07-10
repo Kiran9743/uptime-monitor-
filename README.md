@@ -1,20 +1,11 @@
-# Uptime Monitor MVP
+# Uptime Monitor
 
-## Run
-```bash
-docker compose up --build
-```
+A small uptime monitoring starter project with a Python FastAPI backend and a simple frontend.
 
-Open:
-- Frontend: http://localhost:5173
-- Backend: http://localhost:8000/docs
+To run locally with Docker Compose:
 
-## Test
-POST /urls
-- https://example.com
-- https://this-domain-does-not-exist-123456.com
+1. docker-compose up --build
 
-Verify one URL is UP and one is DOWN.
+Backend will be available at http://localhost:8000 (health: /health, status: /status)
 
-## Deployment Sketch
-Deploy on a single EC2 instance behind an ALB using Docker Compose.
+This repository is a scaffold to get started — replace the in-memory monitor with persistent storage and real monitor configuration.

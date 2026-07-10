@@ -1,12 +1,5 @@
-# AI Collaboration Log
+# AI Log
 
-## AI Stack
-- ChatGPT (GPT-5.5)
+This file tracks AI-assisted changes and decisions.
 
-## Prompts
-- Create a FastAPI backend with SQLite and APScheduler.
-- Create a React dashboard with live updates.
-- Generate Docker Compose configuration.
-
-## Course Correction
-Replaced a suggested Celery/Redis design with APScheduler to keep the MVP simple.
+- 2026-07-10: Initial project scaffold created by assistant.

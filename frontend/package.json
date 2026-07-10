@@ -1,0 +1,9 @@
+{
+  "name": "uptime-monitor-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo \"No build step configured\""
+  }
+}
